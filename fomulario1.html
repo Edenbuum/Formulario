@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+
+        <title> Formulario </title>
+        <META charset="UTF-8">
+
+    </head>
+
+    <body>
+
+        <form method="POST" action="http://formadorestic.com/alumnosdaw/procesaformulario.php" > 
+            <label for="campo_nombre"> Nombre: </label>
+            <input id="campo_nombre" text="text" name="nombre" placeholder="Introduzca aquí su nombre">
+            <br>
+            <label for="campo_edad"> Edad: </label>
+            <input id="campo_edad" text="number" name="edad" placeholder="Introduzca aquí su edad">
+            <br>
+            <label for="campo_email"> Email: </label>
+            <input id="campo_email" text="email" name="email" placeholder="Introduzca aquí su email">
+            <br>
+                Mayor o menor:
+            <br>
+            <input id="mayor" type="radio" value="mayor" name="mayormenor">
+            <label for="mayor" > Mayor </label>
+            <br>
+            <input id="menor" type="radio" value="menor" name="mayormenor">
+            <label for="menor" > Menor </label>
+            <br>
+            <input type="submit" value="enviar">        
+        </form>
+    </body>
+
+</html>
